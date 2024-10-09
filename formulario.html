@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="icon" href="Imagen/faviconformulario.png" type="image/png"/>
+    <script type= "text/JavaScript" src="JavaScript/formulario.js"></script>
+</head>
+<body>
+   
+        <div class="Inicio" id="inicio">
+            
+            <div class="contenedor">
+                <h1>Formulario de Registro</h1>
+            </div>
+    
+            <div class="formulario" id="formulario">
+                <form action="/procesar" method="post"></form>
+                <div class="Section1">
+                    <label for="names">Nombre :</label>
+                    <input type="text" id="names" name="names" minlength="3" maxlength="50" placeholder="Digita tú nombre" required>
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" id="lastname" name="lastname" maxlength="10" minlength="10" placeholder="Digita tú apellido" required>
+                  
+                        <label for="types">Tipo de Identificación:</label>
+                        <select id="types">
+                            <option value="">Selecciona tu Tipo de Identificación</option>
+                            <option value="cc">Cédula de Ciudadanía</option>
+                            <option value="ce">Cédula de Extranjeria</option>
+                            <option value="nit">NIT</option>
+                            <option value="passport">Pasaporte</option>
+                        </select>
+                        <label for="number">Número de Identificación:</label>
+                        <input type="text" id="number" name="number" minlength="3" maxlength="50"  required>
+                </div>
+                <div class="Section2">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="text" id="email" name="email" minlength="3" maxlength="50" placeholder="Digita tú correo electrónico" required>
+                    <label for="age">Edad:</label>
+                    <input type="text" id="age" name="age" minlength="3" maxlength="50" required>
+                    <label for="cellphone">Número Telefónico:</label>
+                    <input type="text" id="cellphone" name="cellphone" minlength="3" maxlength="50" placeholder="Digita tú número de contacto" required>
+                    <label for="gender">Género:</label>
+                    <select id="gender">
+                        <option value="">Selecciona tu Género</option>
+                        <option value="fem">Femenino</option>
+                        <option value="mas">Masculino</option>
+                        <option value="other">Otro</option>
+
+                    </select>
+
+                    <section>
+                    <div class="divBottom">
+                        <input class="botton" type="submit" name="Enviar" onclick="capturarDatos()">
+                    </div>
+
+
+                    <h2>Tabla de Registro</h2>
+                    <table id="mytable">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Cédula</th>
+                                <th>Célular</th>
+                                <th>Género</th>
+                                <th>Sacciones</th>
+                            </tr>
+                        </thead>
+    
+                </table>
+                    </table>
+                    </div>
+                
+                            
+                <button id="removerTabla">Eliminar</button>
+                    
+                </div> 
+            </div>
+        </div>
+
+        <section id="resultado">    
+        </section>    
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+.Registro {
+    width: 100%;
+    height: 20vh;
+    color: white;
+    text-align: center;
+    background-color: rgb(46, 90, 90);
+    display: inline-flex;
+    justify-content:center;
+    align-self: center;
+}
+
+.Formulario {
+    width: 20%;
+    height: 40%;   
+    color: rgb(18, 1, 1);
+    text-align: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    
+}
+
+.Texto {
+    display:flex;
+    width: 100%;  
+    height: 70px;
+    text-align: center;
+    flex-direction:column;
+    align-content: center;    
+    flex-direction:row;
+
+}
+.Texto1 {
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+ 
+}
+.Texto2 {
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+ 
+}
+.Texto3 {
+    text-align: center;
+    justify-content:space-between;
+    gap: 10px;
+   
+}

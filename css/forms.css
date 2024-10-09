@@ -1,0 +1,75 @@
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/19/12/40/trees-8136806_1280.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.contenedor{
+    display:flex;  
+    width: 100%;  
+    color: rgb(18, 1, 1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.formulario{
+    display: inline-flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+    gap: 200px;
+    justify-content: center;
+    flex-direction:row; 
+    font-size: 150%;
+    }
+
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.Section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+input{  
+    font-size: 30px; 
+}
+
+select{  
+    font-size: 30px; 
+}
+
+.table{
+    
+        width: 100%; /* Ancho de la tabla */
+        border-collapse: collapse; /* Colapsar bordes */
+        
+        }
+    th, td {
+        border: 1px solid #ddd; /* Borde de las celdas */
+        padding: 8px; /* Espaciado interno */
+        text-align: center; /* Alinear texto a la izquierda */
+    }
+    th {
+        background-color: #bf5e0e; /* Color de fondo del encabezado */
+        color: white; /* Color del texto en el encabezado */
+    }
+    tr:hover {
+        background-color: #f1f1f1; /* Color al pasar el mouse sobre la fila */
+    }
+
+button{ 
+    font-size: 30px; }
+    

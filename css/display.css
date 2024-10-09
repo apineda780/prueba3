@@ -1,0 +1,45 @@
+/*div {
+    color: white;    
+    margin: 1px;
+}
+.block {
+background:darkblue; 
+}
+.inline {
+background: #e1f642;
+display: inline;
+}
+    
+
+*/
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(76, 12, 48)
+}
+
+.inline-block {   
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+
+hr{
+    border: 0;
+    border-top: 3px solid cornflowerblue ;
+    align-items:center
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,44 @@
+/*
+Cuando una regla empieza con (.) se esta refiriendo a una clase
+*/
+
+.container {
+    color:coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color: cornsilk;
+    width:150px
+}
+
+.container.bloque-1.talento {
+    
+    color: blueviolet;
+    background-color:chartreuse;
+    font-size:aquamarine;
+    text-align:left;
+}
+
+.container.bloque-2.talento {
+    
+    color: rgb(167, 86, 11);
+    background-color:rgb(114, 3, 77);
+    font-size:rgb(185, 212, 5);
+    text-align:justify;
+    width: 600px;
+}
+
+.container.bloque-3.talento {
+    
+    color: rgb(9, 94, 8);
+    background-color:rgb(114, 3, 77);
+    font-size:rgb(169, 83, 3);
+    text-align:left;
+}
+
+h1{
+    color: rgb(2, 26, 45);
+}
+hr{
+    border: 0;
+    border-top: 3px; 
+}
